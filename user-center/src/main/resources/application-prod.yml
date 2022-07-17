@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: root
+    password: '@lmclearn2000626'
+    url: jdbc:mysql://121.40.145.141:3306/universe
+    driver-class-name: com.mysql.jdbc.Driver
+    #失效时间
+  session:
+    timeout: 86400
