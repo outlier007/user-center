@@ -2,6 +2,9 @@ package com.lmclearn.exception;
 
 import com.lmclearn.common.ErrorCode;
 
+/**
+ *异常处理
+ */
 public class BusinessException extends RuntimeException{
 
     private final int code;

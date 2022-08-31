@@ -4,7 +4,6 @@ package com.lmclearn.common;
  * 错误码
  */
 public enum ErrorCode {
-
     SUCCESS(0,"ok",""),
     PARAMS_ERROR(40000,"请求参数错误",""),
     NUll_ERROR(40001,"请求数据为空",""),
